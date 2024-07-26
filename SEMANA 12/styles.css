@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+    text-align: center;
+}
+
+.App-header {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App-content {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #007396; /* Color representativo de Jakarta EE */
+}
+
+h2 {
+    color: #2d2d2d;
+}
+
+p {
+    color: #666666;
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+}
+
+li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+}
+
+li::before {
+    content: "•";
+    color: #007396; /* Color representativo de Jakarta EE */
+    padding-right: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border: 2px solid #007396;
+    border-radius: 5px;
+}
